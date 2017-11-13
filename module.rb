@@ -24,3 +24,20 @@ end
 x = 6
 charlie = CosasDePerros::Perro.new
 charlie.mover_cola if x >= CosasDePerros::NUM_PERROS_MONTAR_FIESTA
+
+=begin
+class Array
+    def initialize
+      puts "lo que sea"
+    end
+  end
+  #Sin un namespace, extendemos la clase array de ruby sin darnos cuenta
+ary = [1, 2, 3, 4]
+ary = Array.new   
+
+  ary.push(5)
+  puts ary
+
+  
+  mi_clase_array = Array.new
+=end
